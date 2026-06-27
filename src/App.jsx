@@ -12,7 +12,7 @@ import BookmarkList from "./features/bookmarks/components/BookmarkList";
 import AddNewBookmak from "./features/bookmarks/components/AddBookmarkPage";
 import Login from "./features/auth/components/Login";
 import SingleBookmark from "./features/bookmarks/components/SingleBookmark";
-import HotelsProvider from "./features/hotels/Context/HotelsProvider";
+import HotelsProvider from "./features/hotels/context/HotelsProvider";
 import LocationList from "./features/hotels/components/LocationList";
 
 function App() {
