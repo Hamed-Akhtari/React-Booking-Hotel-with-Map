@@ -1,4 +1,4 @@
-import { useHotels } from "../Context/HotelsProvider";
+import { useHotels } from "../context/HotelsProvider";
 import SidebarMapLayout from "../../../shared/layout/SidebarMapLayout";
 
 function HotelLayout() {
