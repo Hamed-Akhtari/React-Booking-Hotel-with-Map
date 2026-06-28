@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Loader from "../../../shared/components/Loader/Loader";
-import { useHotels } from "../Context/HotelsProvider";
+import { useHotels } from "../context/HotelsProvider";
 
 function LocationList() {
   const { isLoading, hotels } = useHotels();
