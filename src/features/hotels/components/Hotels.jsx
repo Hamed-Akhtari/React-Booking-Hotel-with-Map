@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useHotels } from "../Context/HotelsProvider";
+import { useHotels } from "../context/HotelsProvider";
 
 function Hotels() {
   const { hotels, currentHotel } = useHotels();
