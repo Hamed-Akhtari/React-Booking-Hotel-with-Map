@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { HiArrowLeft } from "react-icons/hi";
 import Loader from "../../../shared/components/Loader/Loader";
-import { useHotels } from "../Context/HotelsProvider";
+import { useHotels } from "../context/HotelsProvider";
 
 function SingleHotel() {
   const navigate = useNavigate();
